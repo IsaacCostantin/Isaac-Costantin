@@ -4,8 +4,8 @@
     --verde: #C6FF00;
     --rosa: #ff174d;
     --branco: #fffffd;
-    --cinza: rgb(19, 19, 16);
-    --linha: rgb(0, 0, 0);
+    --cinza: #999991;
+    --linha: #292925;
     --fonte: "Space Grotesk", sans-serif;
     --monoespaco: "IBM Plex Mono", monospace;
 }
