@@ -340,6 +340,4 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
         transition-duration: .01ms !important;
     }
 }
-body {
-    color: var(--branco);
-}
+
