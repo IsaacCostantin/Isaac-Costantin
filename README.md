@@ -4,7 +4,7 @@
 
 ## Visão geral
 
-O **ESTRUTURA** é um portfólio pessoal desenvolvido para apresentar meus projetos, minhas habilidades e minha evolução como estudante de Desenvolvimento de Sistemas na ETEC.
+O ESTRUTURA é um portfólio pessoal desenvolvido para apresentar meus projetos, minhas habilidades e minha evolução como estudante de Desenvolvimento de Sistemas na ETEC.
 
 O projeto utiliza uma identidade visual inspirada em estúdios criativos e no desenho técnico, combinando um fundo escuro, cores contrastantes, elementos gráficos e animações para criar uma experiência visual própria.
 
