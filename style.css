@@ -242,6 +242,29 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
 .project h3 span { color: var(--cinza); font: .65rem var(--monoespaco); }
 .project .muted { font-size: .83rem; }
 
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 12px 14px;
+    border: 1px solid var(--linha);
+    color: var(--branco);
+    font: .62rem var(--monoespaco);
+    transition: .25s;
+}
+
+.project-links a:hover {
+    background: var(--verde);
+    border-color: var(--verde);
+    color: var(--preto);
+}
+
 .next-project {
     display: flex;
     min-height: 330px;
