@@ -14,7 +14,7 @@ O site apresenta projetos desenvolvidos individualmente e em equipe, uma seção
 
 **Aplicação online:** https://isaac-costantinportfolio.vercel.app/
 
-Repositório: https://github.com/IsaacCostantin/Isaac-Costantin
+**Repositório:** https://github.com/IsaacCostantin/Isaac-Costantin
 
 ## Tecnologias e bibliotecas
 
