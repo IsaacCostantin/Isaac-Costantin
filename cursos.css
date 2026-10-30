@@ -1,0 +1,197 @@
+
+.certificados-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.certificados-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 7%;
+    border-bottom: 1px solid var(--linha);
+}
+
+.certificados-logo {
+    color: var(--verde);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.back-link {
+    color: var(--cinza);
+    font: .7rem var(--monoespaco);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.back-link:hover {
+    color: var(--verde);
+}
+
+.certificados-main {
+    width: 86%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+    flex: 1;
+}
+
+.certificados-intro {
+    max-width: 750px;
+    margin-bottom: 70px;
+}
+
+.section-label {
+    color: var(--verde);
+    font: .7rem var(--monoespaco);
+}
+
+.certificados-intro h1 {
+    margin: 22px 0;
+    color: var(--branco);
+    font-size: clamp(2.8rem, 8vw, 6rem);
+    font-weight: 700;
+    line-height: .95;
+    letter-spacing: -5px;
+}
+
+.certificados-intro h1 span {
+    color: var(--rosa);
+}
+
+.certificados-intro p {
+    max-width: 450px;
+    color: var(--cinza);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.certificados-info {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 25px 0;
+    margin-bottom: 20px;
+    border-top: 1px solid var(--linha);
+    border-bottom: 1px solid var(--linha);
+}
+
+.certificados-info span {
+    margin-right: auto;
+    color: var(--cinza);
+    font: .7rem var(--monoespaco);
+}
+
+.certificados-info strong {
+    color: var(--verde);
+    font-size: 1.7rem;
+}
+
+.certificados-info small {
+    color: var(--cinza);
+    font: .65rem var(--monoespaco);
+}
+
+.certificados-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificado {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    align-items: center;
+    gap: 25px;
+    padding: 35px 0;
+    border-bottom: 1px solid var(--linha);
+    transition: .3s;
+}
+
+.certificado:hover {
+    padding-left: 12px;
+    border-bottom-color: var(--verde);
+}
+
+.certificado-numero {
+    color: var(--rosa);
+    font: .75rem var(--monoespaco);
+}
+
+.certificado-instituicao {
+    color: var(--verde);
+    font: .65rem var(--monoespaco);
+}
+
+.certificado h2 {
+    margin: 10px 0;
+    color: var(--branco);
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.certificado p {
+    margin: 0;
+    color: var(--cinza);
+    font: .7rem var(--monoespaco);
+}
+
+.certificado a {
+    color: var(--branco);
+    font: .65rem var(--monoespaco);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.certificado a:hover {
+    color: var(--verde);
+}
+
+.certificados-footer {
+    padding: 25px 7%;
+    border-top: 1px solid var(--linha);
+    color: var(--cinza);
+    font: .65rem var(--monoespaco);
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .certificados-header {
+        padding: 22px 6%;
+    }
+
+    .certificados-main {
+        width: 88%;
+        padding: 75px 0;
+    }
+
+    .certificados-intro h1 {
+        letter-spacing: -3px;
+    }
+
+    .certificados-info {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .certificados-info span {
+        width: 100%;
+    }
+
+    .certificado {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 28px 0;
+    }
+
+    .certificado:hover {
+        padding-left: 0;
+    }
+
+    .certificado a {
+        justify-self: start;
+        margin-top: 5px;
+    }
+}
