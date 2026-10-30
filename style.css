@@ -300,13 +300,71 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
 .skills { display: flex; flex-wrap: wrap; gap: 8px; }
 .skills span { padding: 10px 12px; border: 1px solid var(--linha); color: var(--verde); font: .6rem var(--monoespaco); }
 
-.contact h2 { margin: 35px 0; font-size: clamp(4rem, 12vw, 10rem); }
-.contact .muted { max-width: 420px; margin: 0 auto 28px; }
+
+.contact {
+    position: relative;
+    width: min(1200px, calc(100% - 48px));
+    margin: 120px auto 90px;
+    padding: 65px 0;
+    border-top: 1px solid var(--linha);
+    border-bottom: 1px solid var(--linha);
+}
+
+.contact::before {
+    content: "03 / CONTATO";
+    display: block;
+    margin-bottom: 40px;
+    color: var(--cinza);
+    font: .7rem var(--monoespaco);
+    letter-spacing: .12em;
+}
+
+.contact h2 {
+    max-width: 1100px;
+    margin: 0 0 55px;
+    font-size: clamp(3rem, 8.5vw, 8.5rem);
+    font-weight: 700;
+    line-height: .88;
+    letter-spacing: -.095em;
+}
+
+.contact h2 span {
+    display: block;
+    color: var(--rosa);
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .contact-links a {
-    background: transparent;
-    color: var(--branco);
+    display: inline-flex;
+    padding: 14px 20px;
     border: 1px solid var(--linha);
-    transition: 0.3s;
+    color: var(--branco);
+    font: .65rem var(--monoespaco);
+    transition: .3s ease;
+}
+
+.contact-links a:hover {
+    background: var(--verde);
+    border-color: var(--verde);
+    color: var(--preto);
+    transform: translateY(-4px);
+}
+
+@media (max-width: 767px) {
+    .contact {
+        width: calc(100% - 36px);
+        margin: 80px auto 60px;
+        padding: 45px 0;
+    }
+
+    .contact h2 {
+        font-size: clamp(2.6rem, 11vw, 5rem);
+    }
 }
 
 .contact-links a:hover {
