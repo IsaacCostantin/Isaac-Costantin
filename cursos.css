@@ -195,20 +195,3 @@
         margin-top: 5px;
     }
 }
-
-.certificados-button {
-    display: inline-block;
-    margin: 30px 0;
-    padding: 14px 22px;
-    border: 1px solid var(--rosa);
-    color: var(--rosa);
-    font: .7rem var(--monoespaco);
-    letter-spacing: .08em;
-    transition: .3s ease;
-}
-
-.certificados-button:hover {
-    background: var(--rosa);
-    color: var(--preto);
-    transform: translateY(-4px);
-}
