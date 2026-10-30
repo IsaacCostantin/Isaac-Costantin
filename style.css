@@ -406,3 +406,29 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
         break-inside: avoid;
     }
 }
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.contact-links a {
+    display: inline-block;
+    padding: 15px 28px;
+    background: transparent;
+    color: var(--branco);
+    border: 1px solid var(--linha);
+    font: .7rem var(--monoespaco);
+    letter-spacing: .08em;
+    transition: .3s ease;
+}
+
+.contact-links a:hover {
+    background: var(--verde);
+    border-color: var(--verde);
+    color: var(--preto);
+    transform: translateY(-4px);
+}
