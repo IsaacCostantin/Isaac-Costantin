@@ -577,3 +577,6 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
         margin-top: 25px;
     }
 }
+.about .row {
+    align-items: flex-start !important;
+}
