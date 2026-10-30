@@ -17,7 +17,6 @@ O site é dividido em duas páginas principais:
 
 - **Portfólio online:** https://isaac-costantinportfolio.vercel.app/
 - **Repositório GitHub:** https://github.com/IsaacCostantin/Isaac-Costantin
-- **Página de certificados:** https://isaac-costantinportfolio.vercel.app/cursos.html
 
 ## Tecnologias e bibliotecas utilizadas
 
