@@ -13,13 +13,6 @@
     border-bottom: 1px solid var(--linha);
 }
 
-.certificados-logo {
-    color: var(--verde);
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-decoration: none;
-}
-
 .back-link {
     color: var(--cinza);
     font: .7rem var(--monoespaco);
