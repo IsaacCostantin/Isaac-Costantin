@@ -492,24 +492,44 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
 }
 
 
-.about .certificados-button {
-    display: inline-flex;
+.certificados-cta {
+    margin-top: 55px;
+    padding-top: 25px;
+    border-top: 1px solid var(--linha);
+}
+
+.certificados-info-resumo {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin: 18px 0 25px;
+}
+
+.certificados-info-resumo strong {
+    color: var(--branco);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.certificados-info-resumo span {
+    color: var(--cinza);
+    font: .55rem var(--monoespaco);
+}
+
+.certificados-button {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: fit-content;
-    padding: 14px 22px;
-    margin: 0 12px;
+    width: 100%;
+    padding: 19px 20px;
     border: 1px solid var(--rosa);
-    background: transparent;
     color: var(--rosa);
-    font-family: var(--monoespaco);
-    font-size: .7rem;
-    letter-spacing: .08em;
-    text-decoration: none;
+    font: .72rem var(--monoespaco);
     transition: .3s ease;
 }
 
-.about .certificados-button:hover {
+.certificados-button:hover {
     background: var(--rosa);
     color: var(--preto);
     transform: translateY(-4px);
