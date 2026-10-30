@@ -433,20 +433,25 @@ a:focus-visible { outline: 2px solid var(--verde); outline-offset: 5px; }
     transform: translateY(-4px);
 }
 
-.certificados-button {
-    display: inline-block;
+
+.about .certificados-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
     padding: 14px 22px;
-    margin: 25px 0;
+    margin: 0 12px;
     border: 1px solid var(--rosa);
-    color: var(--rosa);
     background: transparent;
+    color: var(--rosa);
     font-family: var(--monoespaco);
     font-size: .7rem;
     letter-spacing: .08em;
+    text-decoration: none;
     transition: .3s ease;
 }
 
-.certificados-button:hover {
+.about .certificados-button:hover {
     background: var(--rosa);
     color: var(--preto);
     transform: translateY(-4px);
